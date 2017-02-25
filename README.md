@@ -8,7 +8,10 @@ For the sake of ease, I have build a demonstration of calculator application use
 **Steps to follow:**
 
 1. Create a single view application project
-2. Add a label on view controller and embed it inside a stack view using **Editor > Embed In > Stack view or button at the bottom **
+2. Add a label on view controller and embed it inside a stack view using *Editor > Embed In > Stack view or button at the bottom*
+
+![Alt text](/screenshots/al1.png?raw=true "Embed inside stack view")
+
 3. Now add 20 buttons (5 rows, 4 columns)
 4. Insert each row of buttons inside a stack view. You can also name the stack view for identification
 5. Select all the stack views and embed them inside another stack view which we will call **Root Stack View**
