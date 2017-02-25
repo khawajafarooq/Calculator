@@ -20,6 +20,6 @@ For the sake of ease, I have build a demonstration of calculator application use
 8. Repease step 7 for all child stack views. This will pretty much set your layout user interface
 9. Looks like there is a still small warning left by autolayout. Fix it by selecting the warning and press fix misplacement for the option update frames.
 
-After all these steps, your layout will be smooth and ready for all the screen size and orientations.
+Now your layout will be smooth and ready for all the screen size and orientations.
 
-
+There are other ways to achieve this but I have done this using stack views. Stack views are super easy to learn. I recommend you should give a try!
