@@ -12,7 +12,18 @@
 		036DF0E01E6202F200203C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036DF0DE1E6202F200203C91 /* Main.storyboard */; };
 		036DF0E21E6202F200203C91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036DF0E11E6202F200203C91 /* Assets.xcassets */; };
 		036DF0E51E6202F200203C91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036DF0E31E6202F200203C91 /* LaunchScreen.storyboard */; };
+		0395607D1E9A720900CB9926 /* AutoLayoutCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0395607C1E9A720900CB9926 /* AutoLayoutCalculatorTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0395607F1E9A720900CB9926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036DF0CF1E6202F200203C91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036DF0D61E6202F200203C91;
+			remoteInfo = AutoLayoutCalculator;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		036DF0D71E6202F200203C91 /* AutoLayoutCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +33,20 @@
 		036DF0E11E6202F200203C91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		036DF0E41E6202F200203C91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		036DF0E61E6202F200203C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0395607A1E9A720900CB9926 /* AutoLayoutCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0395607C1E9A720900CB9926 /* AutoLayoutCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutCalculatorTests.swift; sourceTree = "<group>"; };
+		0395607E1E9A720900CB9926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		036DF0D41E6202F200203C91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		039560771E9A720900CB9926 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				036DF0D91E6202F200203C91 /* AutoLayoutCalculator */,
+				0395607B1E9A720900CB9926 /* AutoLayoutCalculatorTests */,
 				036DF0D81E6202F200203C91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				036DF0D71E6202F200203C91 /* AutoLayoutCalculator.app */,
+				0395607A1E9A720900CB9926 /* AutoLayoutCalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +85,15 @@
 				036DF0E61E6202F200203C91 /* Info.plist */,
 			);
 			path = AutoLayoutCalculator;
+			sourceTree = "<group>";
+		};
+		0395607B1E9A720900CB9926 /* AutoLayoutCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0395607C1E9A720900CB9926 /* AutoLayoutCalculatorTests.swift */,
+				0395607E1E9A720900CB9926 /* Info.plist */,
+			);
+			path = AutoLayoutCalculatorTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +116,24 @@
 			productReference = 036DF0D71E6202F200203C91 /* AutoLayoutCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		039560791E9A720900CB9926 /* AutoLayoutCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 039560831E9A720A00CB9926 /* Build configuration list for PBXNativeTarget "AutoLayoutCalculatorTests" */;
+			buildPhases = (
+				039560761E9A720900CB9926 /* Sources */,
+				039560771E9A720900CB9926 /* Frameworks */,
+				039560781E9A720900CB9926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				039560801E9A720900CB9926 /* PBXTargetDependency */,
+			);
+			name = AutoLayoutCalculatorTests;
+			productName = AutoLayoutCalculatorTests;
+			productReference = 0395607A1E9A720900CB9926 /* AutoLayoutCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +148,12 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = G8D4266YKL;
 						ProvisioningStyle = Manual;
+					};
+					039560791E9A720900CB9926 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2ZSHMY6S5B;
+						ProvisioningStyle = Manual;
+						TestTargetID = 036DF0D61E6202F200203C91;
 					};
 				};
 			};
@@ -115,6 +171,7 @@
 			projectRoot = "";
 			targets = (
 				036DF0D61E6202F200203C91 /* AutoLayoutCalculator */,
+				039560791E9A720900CB9926 /* AutoLayoutCalculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +187,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		039560781E9A720900CB9926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -142,7 +206,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		039560761E9A720900CB9926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0395607D1E9A720900CB9926 /* AutoLayoutCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		039560801E9A720900CB9926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036DF0D61E6202F200203C91 /* AutoLayoutCalculator */;
+			targetProxy = 0395607F1E9A720900CB9926 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		036DF0DE1E6202F200203C91 /* Main.storyboard */ = {
@@ -210,6 +290,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -251,6 +332,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -291,6 +373,34 @@
 			};
 			name = Release;
 		};
+		039560811E9A720900CB9926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2ZSHMY6S5B;
+				INFOPLIST_FILE = AutoLayoutCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmen.AutoLayoutCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayoutCalculator.app/AutoLayoutCalculator";
+			};
+			name = Debug;
+		};
+		039560821E9A720900CB9926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2ZSHMY6S5B;
+				INFOPLIST_FILE = AutoLayoutCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmen.AutoLayoutCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayoutCalculator.app/AutoLayoutCalculator";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -310,6 +420,16 @@
 				036DF0EB1E6202F200203C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		039560831E9A720A00CB9926 /* Build configuration list for PBXNativeTarget "AutoLayoutCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039560811E9A720900CB9926 /* Debug */,
+				039560821E9A720900CB9926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
