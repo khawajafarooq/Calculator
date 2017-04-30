@@ -28,7 +28,7 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "039560791E9A720900CB9926"
+               BlueprintIdentifier = "0372DC191EB61F5F00B63EFC"
                BuildableName = "AutoLayoutCalculatorTests.xctest"
                BlueprintName = "AutoLayoutCalculatorTests"
                ReferencedContainer = "container:AutoLayoutCalculator.xcodeproj">
@@ -40,13 +40,14 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "039560791E9A720900CB9926"
+               BlueprintIdentifier = "0372DC191EB61F5F00B63EFC"
                BuildableName = "AutoLayoutCalculatorTests.xctest"
                BlueprintName = "AutoLayoutCalculatorTests"
                ReferencedContainer = "container:AutoLayoutCalculator.xcodeproj">

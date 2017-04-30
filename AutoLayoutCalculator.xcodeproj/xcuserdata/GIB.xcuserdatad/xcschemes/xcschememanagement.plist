@@ -9,15 +9,15 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>AutoLayoutCalculatorTests.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>036DF0D61E6202F200203C91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0372DC191EB61F5F00B63EFC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

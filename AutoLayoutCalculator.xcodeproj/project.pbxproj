@@ -12,11 +12,11 @@
 		036DF0E01E6202F200203C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036DF0DE1E6202F200203C91 /* Main.storyboard */; };
 		036DF0E21E6202F200203C91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036DF0E11E6202F200203C91 /* Assets.xcassets */; };
 		036DF0E51E6202F200203C91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036DF0E31E6202F200203C91 /* LaunchScreen.storyboard */; };
-		0395607D1E9A720900CB9926 /* AutoLayoutCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0395607C1E9A720900CB9926 /* AutoLayoutCalculatorTests.swift */; };
+		0372DC1D1EB61F5F00B63EFC /* AutoLayoutCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0372DC1C1EB61F5F00B63EFC /* AutoLayoutCalculatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0395607F1E9A720900CB9926 /* PBXContainerItemProxy */ = {
+		0372DC1F1EB61F5F00B63EFC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 036DF0CF1E6202F200203C91 /* Project object */;
 			proxyType = 1;
@@ -33,9 +33,9 @@
 		036DF0E11E6202F200203C91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		036DF0E41E6202F200203C91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		036DF0E61E6202F200203C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0395607A1E9A720900CB9926 /* AutoLayoutCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0395607C1E9A720900CB9926 /* AutoLayoutCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutCalculatorTests.swift; sourceTree = "<group>"; };
-		0395607E1E9A720900CB9926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0372DC1A1EB61F5F00B63EFC /* AutoLayoutCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0372DC1C1EB61F5F00B63EFC /* AutoLayoutCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutCalculatorTests.swift; sourceTree = "<group>"; };
+		0372DC1E1EB61F5F00B63EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		039560771E9A720900CB9926 /* Frameworks */ = {
+		0372DC171EB61F5F00B63EFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				036DF0D91E6202F200203C91 /* AutoLayoutCalculator */,
-				0395607B1E9A720900CB9926 /* AutoLayoutCalculatorTests */,
+				0372DC1B1EB61F5F00B63EFC /* AutoLayoutCalculatorTests */,
 				036DF0D81E6202F200203C91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				036DF0D71E6202F200203C91 /* AutoLayoutCalculator.app */,
-				0395607A1E9A720900CB9926 /* AutoLayoutCalculatorTests.xctest */,
+				0372DC1A1EB61F5F00B63EFC /* AutoLayoutCalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,11 +87,11 @@
 			path = AutoLayoutCalculator;
 			sourceTree = "<group>";
 		};
-		0395607B1E9A720900CB9926 /* AutoLayoutCalculatorTests */ = {
+		0372DC1B1EB61F5F00B63EFC /* AutoLayoutCalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				0395607C1E9A720900CB9926 /* AutoLayoutCalculatorTests.swift */,
-				0395607E1E9A720900CB9926 /* Info.plist */,
+				0372DC1C1EB61F5F00B63EFC /* AutoLayoutCalculatorTests.swift */,
+				0372DC1E1EB61F5F00B63EFC /* Info.plist */,
 			);
 			path = AutoLayoutCalculatorTests;
 			sourceTree = "<group>";
@@ -116,22 +116,22 @@
 			productReference = 036DF0D71E6202F200203C91 /* AutoLayoutCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		039560791E9A720900CB9926 /* AutoLayoutCalculatorTests */ = {
+		0372DC191EB61F5F00B63EFC /* AutoLayoutCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 039560831E9A720A00CB9926 /* Build configuration list for PBXNativeTarget "AutoLayoutCalculatorTests" */;
+			buildConfigurationList = 0372DC231EB61F5F00B63EFC /* Build configuration list for PBXNativeTarget "AutoLayoutCalculatorTests" */;
 			buildPhases = (
-				039560761E9A720900CB9926 /* Sources */,
-				039560771E9A720900CB9926 /* Frameworks */,
-				039560781E9A720900CB9926 /* Resources */,
+				0372DC161EB61F5F00B63EFC /* Sources */,
+				0372DC171EB61F5F00B63EFC /* Frameworks */,
+				0372DC181EB61F5F00B63EFC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				039560801E9A720900CB9926 /* PBXTargetDependency */,
+				0372DC201EB61F5F00B63EFC /* PBXTargetDependency */,
 			);
 			name = AutoLayoutCalculatorTests;
 			productName = AutoLayoutCalculatorTests;
-			productReference = 0395607A1E9A720900CB9926 /* AutoLayoutCalculatorTests.xctest */;
+			productReference = 0372DC1A1EB61F5F00B63EFC /* AutoLayoutCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -149,10 +149,9 @@
 						DevelopmentTeam = G8D4266YKL;
 						ProvisioningStyle = Manual;
 					};
-					039560791E9A720900CB9926 = {
+					0372DC191EB61F5F00B63EFC = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2ZSHMY6S5B;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 036DF0D61E6202F200203C91;
 					};
 				};
@@ -171,7 +170,7 @@
 			projectRoot = "";
 			targets = (
 				036DF0D61E6202F200203C91 /* AutoLayoutCalculator */,
-				039560791E9A720900CB9926 /* AutoLayoutCalculatorTests */,
+				0372DC191EB61F5F00B63EFC /* AutoLayoutCalculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -187,7 +186,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		039560781E9A720900CB9926 /* Resources */ = {
+		0372DC181EB61F5F00B63EFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,21 +205,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		039560761E9A720900CB9926 /* Sources */ = {
+		0372DC161EB61F5F00B63EFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0395607D1E9A720900CB9926 /* AutoLayoutCalculatorTests.swift in Sources */,
+				0372DC1D1EB61F5F00B63EFC /* AutoLayoutCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		039560801E9A720900CB9926 /* PBXTargetDependency */ = {
+		0372DC201EB61F5F00B63EFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 036DF0D61E6202F200203C91 /* AutoLayoutCalculator */;
-			targetProxy = 0395607F1E9A720900CB9926 /* PBXContainerItemProxy */;
+			targetProxy = 0372DC1F1EB61F5F00B63EFC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -373,11 +372,10 @@
 			};
 			name = Release;
 		};
-		039560811E9A720900CB9926 /* Debug */ = {
+		0372DC211EB61F5F00B63EFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 2ZSHMY6S5B;
 				INFOPLIST_FILE = AutoLayoutCalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xmen.AutoLayoutCalculatorTests;
@@ -387,11 +385,10 @@
 			};
 			name = Debug;
 		};
-		039560821E9A720900CB9926 /* Release */ = {
+		0372DC221EB61F5F00B63EFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 2ZSHMY6S5B;
 				INFOPLIST_FILE = AutoLayoutCalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xmen.AutoLayoutCalculatorTests;
@@ -422,14 +419,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		039560831E9A720A00CB9926 /* Build configuration list for PBXNativeTarget "AutoLayoutCalculatorTests" */ = {
+		0372DC231EB61F5F00B63EFC /* Build configuration list for PBXNativeTarget "AutoLayoutCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				039560811E9A720900CB9926 /* Debug */,
-				039560821E9A720900CB9926 /* Release */,
+				0372DC211EB61F5F00B63EFC /* Debug */,
+				0372DC221EB61F5F00B63EFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

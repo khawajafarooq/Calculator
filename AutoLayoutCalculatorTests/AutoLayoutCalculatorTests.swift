@@ -2,7 +2,7 @@
 //  AutoLayoutCalculatorTests.swift
 //  AutoLayoutCalculatorTests
 //
-//  Created by GIB on 4/9/17.
+//  Created by GIB on 4/30/17.
 //  Copyright © 2017 Xmen. All rights reserved.
 //
 
@@ -23,6 +23,8 @@ class AutoLayoutCalculatorTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssert(true, "Passing testExample")
     }
+    
     
 }
