@@ -1,4 +1,4 @@
-# AutoLayoutCalculatorUI
+# Calculator
 
 Demonstration of calculator application user interface using stack views and autolayouts.
 
